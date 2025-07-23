@@ -36,7 +36,7 @@ export const resume = {
   ],
 
   contact: {
-    email: "not.now@pm.me",
+    email: "yvxxx9@pm.me",
     social: {
       GitHub: {
         name: "GitHub",
@@ -48,7 +48,7 @@ export const resume = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/",
+        url: "https://www.linkedin.com/in/Yahya YX",
       },
     },
   },

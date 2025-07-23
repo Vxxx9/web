@@ -15,7 +15,7 @@ export const resume = {
   locationLink: "https://www.google.com/maps/place/morocco,casablanca",
 
   about:
-    "Welcome to my personal portfolio ! I'm a passionate <strong>front-end  JavaScript/TypeScript developer</strong> and a <strong>CS student</strong>. I'm also a <strong>Linux distros enthusiast</strong>, maybe even an Arch Linux user!",
+    "Welcome to my personal portfolio  I m a <strong>CS student</strong> and a passionate <strong>front-end  JavaScript/TypeScript developer</strong>.I'm also a <strong>Linux distros enthusiast</strong>, maybe even an <strong>Arch Linux</strong> user!",
 
   languagesSummary:
     "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility not that high level.",
@@ -56,7 +56,7 @@ export const resume = {
   resumeLink: "./documents/resume.pdf",
 
   futurePlans:
-    "I plan to continue improving my skills in <strong>JavaScript</strong> and <strong>TypeScript</strong>, and to explore more about <strong>Deno</strong>. I also want to contribute to open-source projects and learn more about web development.and continue exploring and mastring in linux distros .",
+    "I plan to continue improving my skills in <strong>JavaScript</strong> and <strong>TypeScript</strong>, and to explore more about <strong>Deno</strong>. I also want to contribute to open-source projects and learn more about web development.and continue exploring and mastring in linux distros inchaalah .",
 
   projects: [
     {

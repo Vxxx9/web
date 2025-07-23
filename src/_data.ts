@@ -1,73 +1,55 @@
 const ascii = `
- ██╗   ██╗ █████╗ ███████╗ █████╗ ███╗   ██╗
- ╚██╗ ██╔╝██╔══██╗╚══███╔╝██╔══██╗████╗  ██║
-  ╚████╔╝ ███████║  ███╔╝ ███████║██╔██╗ ██║
-   ╚██╔╝  ██╔══██║ ███╔╝  ██╔══██║██║╚██╗██║
-    ██║   ██║  ██║███████╗██║  ██║██║ ╚████║
-    ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+ ██╗   ██╗ █████╗ ██╗  ██╗██╗   ██╗ █████╗ 
+╚██╗ ██╔╝██╔══██╗██║  ██║╚██╗ ██╔╝██╔══██╗
+ ╚████╔╝ ███████║███████║ ╚████╔╝ ███████║
+  ╚██╔╝  ██╔══██║██╔══██║  ╚██╔╝  ██╔══██║
+   ██║   ██║  ██║██║  ██║   ██║   ██║  ██║
+   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝
+
 `;
 
 export const resume = {
-  name: "Yazan",
+  name: "Yahya",
   ascii,
 
-  location: "Jordan, Amman",
-  locationLink: "https://www.google.com/maps/place/amman",
+  location: "Morocco",
+  locationLink: "https://www.google.com/maps/place/morocco",
 
   about:
-    "I’m a <strong>recent CS graduate</strong> and <strong>full-stack JavaScript/TypeScript developer</strong>, daily <a href='https://github.com/vwh/nixos-config' target='_blank' class='underline break-all' style='color: #a2c9eb'>NixOS</a> user and <strong>GNU/Linux enthusiast</strong> exploring system programming to deepen my expertise.",
+    "I’m a <strong> CS student </strong> and <strong>full-stack JavaScript/TypeScript developer</strong>,maybe an Arch linux user, linux distros enthousiast  .",
 
   languagesSummary:
-    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility, <strong>Python</strong> for scripting and rapid prototyping, and <strong>C</strong> for low-level system programming.",
+    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility.",
 
   runtimesSummary:
-    "Experienced with <strong>Node.js</strong>, <strong>Bun</strong>, <strong>Deno</strong>, <strong>Cloudflare Workers</strong>, and <strong>browsers</strong>, building high-performance applications across server, edge, and front-end environments.",
-
-  skills: [
+    "Experienced with <strong>Node.js</strong> in websites databases,  <strong>Deno</strong> for websites hosting."
+   ,
+ skills: [
     "JavaScript",
     "TypeScript",
-    "Python",
-    "C",
-    "WebAssembly",
-    "Vite",
-    "React",
-    "Next.js",
-    "Zustand",
-    "React Query",
+"Html",
+"Css",
     "Tailwind",
-    "ShadcnUI",
-    "SQLite",
-    "PostgreSQL",
-    "Redis",
-    "Drizzle",
-    "Prisma",
-    "Node",
-    "Bun",
-    "Deno",
-    "tRPC",
-    "Express",
-    "Hono",
-    "Cloudflare",
-    "Docker",
+    "Deno", 
     "Linux",
-    "Nix",
+    "Arch",
     "Git",
   ],
 
   contact: {
-    email: "vwh.e@pm.me",
+    email: "not.now@pm.me",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/vwh",
+        url: "https://github.com/Vxxx9",
       },
       Telegram: {
         name: "Telegram",
-        url: "https://t.me/Vimboy",
+        url: "https://t.me/Aixx9",
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/vwh-yazan/",
+        url: "https://www.linkedin.com/in//",
       },
     },
   },
@@ -75,58 +57,58 @@ export const resume = {
   resumeLink: "./documents/resume.pdf",
 
   futurePlans:
-    "Diving into <strong>system programming</strong> with <strong>C</strong>, <strong>Zig</strong>, and <strong>Rust</strong> to master systems and performance optimization, while exploring diverse databases and back-end technologies for efficient, scalable web apps.",
+    "I’m focused on growing as a <strong> front-end developer</strong> by building sleek, responsive interfaces, exploring <strong>cybersecurity</strong> fundamentals, and sharing my workflow and tips as a <strong> Linux</strong> enthusiast. ",
 
   projects: [
     {
-      title: "SQLite Viewer",
+      title: "",
       active: true,
-      description: "WebAssembly browser-based SQLite viewer.",
+      description: "",
       links: [
         {
-          type: "Website",
-          href: "https://vwh.github.io/sqlite-online",
+          type: "",
+          href: "",
         },
         {
-          type: "Source",
-          href: "https://github.com/vwh/sqlite-viewer",
+          type: "",
+          href: "",
         },
       ],
     },
     {
-      title: "MiftahDB",
+      title: "",
       active: true,
-      description: "Fast and lightweight key-value database library.",
+      description: "",
       links: [
         {
-          type: "Source",
-          href: "https://github.com/miftahDB/miftahdb",
+          type: "",
+          href: "",
         },
       ],
     },
     {
-      title: "VWH Email",
+      title: "",
       active: true,
-      description: "Open source temp mail service, anonymous and free.",
+      description: "",
       links: [
         {
-          type: "Website",
-          href: "https://email.vwh.sh",
+          type: "",
+          href: "",
         },
         {
-          type: "Source",
-          href: "https://github.com/vwh/vwh-email",
+          type: "",
+          href: "",
         },
       ],
     },
     {
-      title: "Crust",
+      title: "",
       active: true,
-      description: "Simple toy scripting language.",
+      description: "",
       links: [
         {
-          type: "Source",
-          href: "https://github.com/vwh/crust",
+          type: "",
+          href: "",
         },
       ],
     },

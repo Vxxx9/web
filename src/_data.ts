@@ -56,7 +56,7 @@ export const resume = {
   resumeLink: "./documents/resume.pdf",
 
   futurePlans:
-    "Diving into linux distros universe start from <strong>Fedora</strong> to <strong>Arch</strong>,<strong>Parrot OS</strong>,and I wanna develope my developement skills to mastering why not inchaalah .",
+    "Diving into linux distros universe start from <strong>Fedora</strong> to <strong>Arch</strong>,<strong>Parrot OS</strong>,and I wanna develope my web  developement skills to mastering why not inchaalah .",
 
   projects: [
     {

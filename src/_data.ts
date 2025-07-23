@@ -1,36 +1,35 @@
-const ascii = `
- ██╗   ██╗ █████╗ ██╗  ██╗██╗   ██╗ █████╗ 
+ const ascii = `
+  ██╗   ██╗ █████╗ ██╗  ██╗██╗   ██╗ █████╗ 
 ╚██╗ ██╔╝██╔══██╗██║  ██║╚██╗ ██╔╝██╔══██╗
  ╚████╔╝ ███████║███████║ ╚████╔╝ ███████║
   ╚██╔╝  ██╔══██║██╔══██║  ╚██╔╝  ██╔══██║
    ██║   ██║  ██║██║  ██║   ██║   ██║  ██║
    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝
-
 `;
 
 export const resume = {
   name: "Yahya",
   ascii,
 
-  location: "Morocco",
-  locationLink: "https://www.google.com/maps/place/morocco",
+  location: "Morocco, Casablanca",
+  locationLink: "https://www.google.com/maps/place/morocco,casablanca",
 
   about:
-    "I’m a <strong> CS student </strong> and <strong>full-stack JavaScript/TypeScript developer</strong>,maybe an Arch linux user, linux distros enthousiast  .",
+    "Welcome to my personal portfolio ! I'm a passionate <strong>front-end  JavaScript/TypeScript developer</strong> and a <strong>CS student</strong>. I'm also a <strong>Linux distros enthusiast</strong>, maybe even an Arch Linux user!",
 
   languagesSummary:
-    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility.",
+    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility not that high level.",
 
   runtimesSummary:
-    "Experienced with <strong>Node.js</strong> in websites databases,  <strong>Deno</strong> for websites hosting."
-   ,
- skills: [
+    "Experienced with <strong>Node.js</strong> in website databases, and <strong>Deno</strong> for hosting web .",
+
+  skills: [
     "JavaScript",
     "TypeScript",
-"Html",
-"Css",
+    "HTML",
+    "CSS",
     "Tailwind",
-    "Deno", 
+    "Deno",
     "Linux",
     "Arch",
     "Git",
@@ -49,7 +48,7 @@ export const resume = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in//",
+        url: "https://www.linkedin.com/in/",
       },
     },
   },
@@ -57,60 +56,38 @@ export const resume = {
   resumeLink: "./documents/resume.pdf",
 
   futurePlans:
-    "I’m focused on growing as a <strong> front-end developer</strong> by building sleek, responsive interfaces, exploring <strong>cybersecurity</strong> fundamentals, and sharing my workflow and tips as a <strong> Linux</strong> enthusiast. ",
+    "I plan to continue improving my skills in <strong>JavaScript</strong> and <strong>TypeScript</strong>, and to explore more about <strong>Deno</strong>. I also want to contribute to open-source projects and learn more about web development.and continue exploring and mastring in linux distros .",
 
   projects: [
     {
-      title: "",
+      title: "analysing",
       active: true,
       description: "",
       links: [
-        {
-          type: "",
-          href: "",
-        },
-        {
-          type: "",
-          href: "",
-        },
+        { type: "", href: "" },
+        { type: "", href: "" },
       ],
     },
     {
-      title: "",
+      title: "analysing",
+      active: true,
+      description: "",
+      links: [{ type: "", href: "" }],
+    },
+    {
+      title: "analysing",
       active: true,
       description: "",
       links: [
-        {
-          type: "",
-          href: "",
-        },
+        { type: "", href: "" },
+        { type: "", href: "" },
       ],
     },
     {
-      title: "",
+      title: "analysing",
       active: true,
       description: "",
-      links: [
-        {
-          type: "",
-          href: "",
-        },
-        {
-          type: "",
-          href: "",
-        },
-      ],
-    },
-    {
-      title: "",
-      active: true,
-      description: "",
-      links: [
-        {
-          type: "",
-          href: "",
-        },
-      ],
+      links: [{ type: "", href: "" }],
     },
   ],
 } as const;

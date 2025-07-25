@@ -525,12 +525,12 @@ body:before {
 
 ::selection {
     color: #000;
-    background-color: #ec4899
+    background-color: #6b7280
 }
 
 ::selection {
     color: #000;
-    background-color: #ec4899
+    background-color: #6b7280
 }
 
 ::-webkit-scrollbar {
@@ -548,7 +548,7 @@ body:before {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ec4899
+    background: #6b7280
 }
 
 * {
@@ -563,14 +563,14 @@ html {
 a:focus,
 button:focus {
     outline-offset: 2px;
-    outline: 2px solid #ec4899
+    outline: 2px solid #6b7280
 }
 
 h2,
 a,
 pre,
 span {
-    color: #ec4899
+    color: #6b7280;
 }
 
 a {
@@ -579,7 +579,7 @@ a {
 }
 
 a:hover {
-    color: #ec4899 !important
+    color: #6b7280  !important
 }
 
 a.underline {
@@ -589,7 +589,7 @@ a.underline {
 }
 
 a.underline:hover {
-    text-shadow: 0 0 8px #ec4899;
+    text-shadow: 0 0 8px #6b7280;
     border-bottom-color: transparent
 }
 
@@ -600,7 +600,7 @@ nav a {
 
 nav a:after {
     content: "";
-    background-color: #ec4899;
+    background-color: #6b7280;
     width: 0;
     height: 2px;
     transition: width .3s;
@@ -620,7 +620,7 @@ h2 {
 
 h2:before {
     content: ">";
-    color: #ec4899;
+    color: #6b7280 ;
     margin-right: .5rem;
     font-weight: 700;
     transition: all .3s;
@@ -660,9 +660,9 @@ section#skills span {
 }
 
 section#skills span:hover {
-    text-shadow: 0 0 8px #ec4899;
+    text-shadow: 0 0 8px #6b7280;
     transform: translateY(-2px);
-    color: #ec4899 !important
+    color:  #6b7280!important
 }
 
 section#contact a {
@@ -678,7 +678,7 @@ section#contact a:hover {
 section#contact a:before {
     content: "→";
     opacity: 0;
-    color: #ec4899;
+    color:#6b7280 ;
     transition: all .3s;
     position: absolute;
     left: -20px
@@ -748,7 +748,7 @@ header {
 header:after {
     content: "";
     opacity: 0;
-    background: linear-gradient(90deg, transparent, #ec4899, transparent);
+    background: linear-gradient(90deg, transparent,#6b7280 , transparent);
     height: 1px;
     transition: opacity .3s;
     position: absolute;
@@ -772,7 +772,7 @@ section:target {
 section:target:before {
     content: "";
     opacity: .7;
-    background-color: #ec4899;
+    background-color:#6b7280 ;
     width: 3px;
     position: absolute;
     top: 0;

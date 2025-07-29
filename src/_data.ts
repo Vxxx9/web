@@ -15,7 +15,7 @@ export const resume = {
   locationLink: "https://www.google.com/maps/place/morocco,casablanca",
 
   about:
-    "Welcome to my personal portfolio I’m Yahya,I’m a <strong>CS student</strong> and a passionate <strong>front-end  JavaScript/TypeScript and developement beginner</strong>.I'm also a <strong>Linux distros enthusiast</strong>, maybe even an <strong>Arch Linux</strong> user!",
+    "Welcome to my personal portfolio I’m Yahya,I’m a <strong>CS student</strong> and a passionate <strong>front-end  JavaScript/TypeScript and developement beginner</strong>.I'm also a <strong>Linux distros enthusiast</strong>, maybe even an <a href='https://archlinux.org/' target='_blank' class='underline break-all' style='color: #a2c9eb'>Arch</a> user!",
 
   languagesSummary:
     "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility not that high level.",

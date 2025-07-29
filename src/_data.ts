@@ -1,4 +1,4 @@
- const ascii = `Youkoso , to my potfolio !
+const ascii = `Youkoso, to my portfolio!
 `;
 
 export const resume = {
@@ -9,13 +9,13 @@ export const resume = {
   locationLink: "https://www.google.com/maps/place/morocco,casablanca",
 
   about:
-"I’m a <strong>CS student</strong> and a<strong>front-end </strong> <strong>JavaScript/TypeScript </strong> beginner developer.I'm also a <strong>Linux distros enthusiast</strong>, maybe  an <a href='https://archlinux.org/' target='_blank' class='underline break-all' style='color: #8fc8f9ec'>Arch</a> daily user!", 
+    "I’m a <strong>CS student</strong> and a <strong>front-end</strong> <strong>JavaScript/TypeScript</strong> beginner developer. I'm also a <strong>Linux distros enthusiast</strong>, maybe an <a href='https://archlinux.org/' target='_blank' class='underline break-all' style='color: #8fc8f9ec'>Arch</a> daily user!",
 
   languagesSummary:
-    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility , not that high level .",
+    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility, not that high level.",
 
   runtimesSummary:
-    "Experienced with <strong>Node.js</strong> in website databases, and <strong>Deno</strong> for hosting web .",
+    "Experienced with <strong>Node.js</strong> in website databases, and <strong>Deno</strong> for hosting web.",
 
   skills: [
     "JavaScript",
@@ -42,7 +42,7 @@ export const resume = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/Yahya YX",
+        url: "https://www.linkedin.com/in/YahyaYX", 
       },
     },
   },
@@ -50,48 +50,18 @@ export const resume = {
   resumeLink: "./documents/resume.pdf",
 
   futurePlans:
-    "Diving into linux distros universe start from <strong>Fedora</strong> to <strong>Arch</strong>,<strong>Parrot OS</strong>,and I wanna develope my web  developement skills to mastering why not inchaalah .",
+    "Diving into linux distros universe starting from <strong>Fedora</strong> to <strong>Arch</strong>, <strong>Parrot OS</strong>, and I want to develop my web development skills to mastering — why not, inchaAllah.",
 
-  projects:
-  [document.body.innerText = "I prefer not to say";
-
-  /*
-  [
+  projects: [
     {
-      title: "analysing",
-      active: true,
-      description: "",
-      links: [
-        { type: "", href: "" },
-        { type: "", href: "" },
-      ],
+      title: "Private Project",
+      active: false,
+      description: "I prefer not to say",
+      links: [],
     },
-    {
-      title: "analysing",
-      active: true,
-      description: "",
-      links: [{ type: "", href: "" }],
-    },
-    {
-      title: "analysing",
-      active: true,
-      description: "",
-      links: [
-        { type: "", href: "" },
-        { type: "", href: "" },
-      ],
-    },
-    {
-      title: "analysing",
-      active: true,
-      description: "",
-      links: [{ type: "", href: "" }], 
-    },
-    
   ],
-  */
- 
- } as const;
+
+} as const;
 
 declare global {
   namespace Lume {
@@ -99,4 +69,4 @@ declare global {
       resume: typeof resume;
     }
   }
-} 
+}

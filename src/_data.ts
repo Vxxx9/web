@@ -1,4 +1,4 @@
- const ascii = `Youkoso, to my potfolio!
+ const ascii = `Youkoso , to my potfolio!
 `;
 
 export const resume = {

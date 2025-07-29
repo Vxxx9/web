@@ -1,4 +1,4 @@
- const ascii = `Youkoso , to my potfolio!
+ const ascii = `Youkoso , to my potfolio !
 `;
 
 export const resume = {
@@ -9,10 +9,10 @@ export const resume = {
   locationLink: "https://www.google.com/maps/place/morocco,casablanca",
 
   about:
-"Welcome to my personal portfolio I’m Yahya,I’m a <strong>CS student</strong> and a passionate <strong>front-end  JavaScript/TypeScript and developement beginner</strong>.I'm also a <strong>Linux distros enthusiast</strong>, maybe even an <a href='https://archlinux.org/' target='_blank' class='underline break-all' style='color: #a2c9eb'>Arch</a> user!", 
+"I’m a <strong>CS student</strong> and a<strong>front-end </strong> <strong>JavaScript/TypeScript </strong> beginner developer.I'm also a <strong>Linux distros enthusiast</strong>, maybe  an <a href='https://archlinux.org/' target='_blank' class='underline break-all' style='color: #8fc8f9ec'>Arch</a> daily user!", 
 
   languagesSummary:
-    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility, not that high level.",
+    "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility , not that high level .",
 
   runtimesSummary:
     "Experienced with <strong>Node.js</strong> in website databases, and <strong>Deno</strong> for hosting web .",

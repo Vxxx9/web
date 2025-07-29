@@ -15,7 +15,7 @@ export const resume = {
   locationLink: "https://www.google.com/maps/place/morocco,casablanca",
 
   about:
-    "Welcome to my personal portfolio I’m Yahya,I’m a <strong>CS student</strong> and a passionate <strong>front-end  JavaScript/TypeScript and beginner developer</strong>.I'm also a <strong>Linux distros enthusiast</strong>, maybe even an <strong>Arch Linux</strong> user!",
+    "Welcome to my personal portfolio I’m Yahya,I’m a <strong>CS student</strong> and a passionate <strong>front-end  JavaScript/TypeScript and developement beginner</strong>.I'm also a <strong>Linux distros enthusiast</strong>, maybe even an <strong>Arch Linux</strong> user!",
 
   languagesSummary:
     "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility not that high level.",
@@ -58,7 +58,11 @@ export const resume = {
   futurePlans:
     "Diving into linux distros universe start from <strong>Fedora</strong> to <strong>Arch</strong>,<strong>Parrot OS</strong>,and I wanna develope my web  developement skills to mastering why not inchaalah .",
 
-  projects: [
+  projects:
+  [document.body.innerText = "I prefer not say";
+
+  /*
+  [
     {
       title: "analysing",
       active: true,
@@ -87,10 +91,13 @@ export const resume = {
       title: "analysing",
       active: true,
       description: "",
-      links: [{ type: "", href: "" }],
+      links: [{ type: "", href: "" }], 
     },
+    
   ],
-} as const;
+  */
+ 
+ } as const;
 
 declare global {
   namespace Lume {
@@ -98,4 +105,4 @@ declare global {
       resume: typeof resume;
     }
   }
-}
+} 

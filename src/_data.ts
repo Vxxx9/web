@@ -36,7 +36,7 @@ export const resume = {
   ],
 
   contact: {
-    email: "yvxxx9@pm.me",
+    email: "yvxxx9@gmail.com",
     social: {
       GitHub: {
         name: "GitHub",
@@ -59,7 +59,7 @@ export const resume = {
     "Diving into linux distros universe start from <strong>Fedora</strong> to <strong>Arch</strong>,<strong>Parrot OS</strong>,and I wanna develope my web  developement skills to mastering why not inchaalah .",
 
   projects:
-  [document.body.innerText = "I prefer not say";
+  [document.body.innerText = "I prefer not to say";
 
   /*
   [

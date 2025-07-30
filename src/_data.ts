@@ -9,7 +9,7 @@ export const resume = {
   locationLink: "https://www.google.com/maps/place/morocco,casablanca",
 
   about:
-    "I’m a <strong>CS student</strong> and a <strong>front-end</strong> <strong>JavaScript/TypeScript</strong> beginner developer. I'm also a <strong>Linux distros enthusiast</strong>, maybe an <a href='https://archlinux.org/' target='_blank' class='underline break-all' style='color: #8fc8f9ec'>Arch</a> daily user!",
+    "I’m a <strong>CS student</strong> and a <strong>front-end</strong> focuser , maybe a beginner developer. I'm also a <strong>Linux distros enthusiast</strong>, maybe an <a href='https://archlinux.org/' target='_blank' class='underline break-all' style='color: #8fc8f9ec'>Arch</a> daily user!",
 
   languagesSummary:
     "Using <strong>TypeScript</strong> for type safety, <strong>JavaScript</strong> for flexibility, not that high level.",

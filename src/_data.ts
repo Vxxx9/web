@@ -54,9 +54,9 @@ export const resume = {
 
   projects: [
     {
-      title: "Private Project",
+      title: "Private Projects",
       active: false,
-      description: "I prefer not to say",
+      description: "I prefer not to say btw.",
       links: [],
     },
   ],

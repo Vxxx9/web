@@ -35,12 +35,12 @@ body::before {
 }
 
 ::selection {
-  background-color: #c0c0c0;
+  background-color: #4848ff;
   color: #000;
 }
 
 ::-moz-selection {
-  background-color: #c0c0c0;
+  background-color: #4848ff;
   color: #000;
 }
 
@@ -59,7 +59,7 @@ body::before {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #c0c0c0;
+  background: #4848ff;
 }
 
 * {
@@ -76,7 +76,7 @@ html {
 
 a:focus,
 button:focus {
-  outline: 2px solid #c0c0c0;
+  outline: 2px solid #4848ff;
   outline-offset: 2px;
 }
 
@@ -84,7 +84,7 @@ h2,
 a,
 pre,
 span {
-  color: #c0c0c0;
+  color: #4848ff;
 }
 
 a {
@@ -93,7 +93,7 @@ a {
 }
 
 a:hover {
-  color: #c0c0c0 !important;
+  color: #4848ff !important;
 }
 
 a.underline {
@@ -104,7 +104,7 @@ a.underline {
 
 a.underline:hover {
   border-bottom-color: transparent;
-  text-shadow: 0 0 8px #c0c0c0;
+  text-shadow: 0 0 8px #4848ff;
 }
 
 nav a {
@@ -119,7 +119,7 @@ nav a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #c0c0c0;
+  background-color: #4848ff;
   transition: width 0.3s ease;
 }
 
@@ -134,7 +134,7 @@ h2 {
 
 h2::before {
   content: ">";
-  color: #c0c0c0;
+  color: #4848ff;
   font-weight: bold;
   margin-right: 0.5rem;
   display: inline-block;
@@ -145,7 +145,7 @@ h2::before {
 h2:hover::before {
   transform: translateX(4px) scale(1.2);
   color: #fff;
-  text-shadow: 0 0 10px #c0c0c0;
+  text-shadow: 0 0 10px #4848ff;
 }
 
 pre {
@@ -174,7 +174,7 @@ section#skills span {
 }
 
 section#skills span:hover {
-  color: #c0c0c0 !important;
+  color: #4848ff !important;
   transform: translateY(-2px);
   text-shadow: 0 0 8px #a2c9eb;
 }
@@ -195,7 +195,7 @@ section#contact a::before {
   left: -20px;
   opacity: 0;
   transition: all 0.3s ease;
-  color: #c0c0c0;
+  color: #4848ff;
 }
 
 section#contact a:hover::before {
@@ -259,7 +259,7 @@ header::after {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, #c0c0c0, transparent);
+  background: linear-gradient(90deg, transparent, #4848ff, transparent);
   transition: opacity 0.3s ease;
 }
 
@@ -282,7 +282,7 @@ section:target::before {
   top: 0;
   bottom: 0;
   width: 3px;
-  background-color: #c0c0c0;
+  background-color: #4848ff;
   opacity: 0.7;
 }
 
